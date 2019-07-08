@@ -6,6 +6,6 @@
 	}
 	%>
 	
-	Lower case "Hi There!": <%= makeItLower("Hi There!") %>
+	Lower case "Hello!": <%= makeItLower("Hello!") %>
 </body>
 </html>

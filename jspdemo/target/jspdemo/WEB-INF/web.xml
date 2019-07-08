@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <filter>
+    <filter-name>ApplicationInsightsWebFilter</filter-name>
+    <filter-class>com.microsoft.applicationinsights.web.internal.WebRequestTrackingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>ApplicationInsightsWebFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <listener>
+    <listener-class>com.microsoft.applicationinsights.web.internal.ApplicationInsightsServletContextListener</listener-class>
+  </listener>
+</web-app>
